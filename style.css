@@ -37,7 +37,7 @@ a:hover {
 
 
 img {
-    width: 50%; 
+    width: 30%; 
     margin-left:auto;
     margin-right: 0%;
     display: block;
@@ -57,6 +57,13 @@ body {
    align-items: left;
 }
 
+.container1 {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: left;
+   align-items: left;
+}
+
 
 .container {
    display: flex;
@@ -69,7 +76,19 @@ body {
    background-image: linear-gradient(to right bottom, rgb(242, 230, 255), rgb(248, 250, 251));
 
 
-   width: 750px;
+   width: 700px;
+   padding: 50px;
+   margin: 20px;
+   border-radius: 30px;  
+   display: flex;
+   flex-direction: column;
+}
+
+.tab1 {
+   background-image: linear-gradient(to right bottom, rgb(242, 230, 255), rgb(248, 250, 251));
+
+
+   width: 700px;
    padding: 50px;
    margin: 20px;
    border-radius: 30px;  
@@ -78,10 +97,10 @@ body {
 }
 
 .tab {
-   background-image: linear-gradient(to right bottom, rgb(151, 236, 255), rgb(252, 252, 252));
+   background-image: linear-gradient(to right bottom, rgb(184, 242, 255), rgb(245, 255, 255));
 
 
-   width: 700px;
+   width: 720px;
    padding: 40px;
    margin: 20px;
    border-radius: 30px;  
@@ -130,7 +149,7 @@ footer {
 .info-right {
    color: white;
    text-align: right;
-   width: 100%;
+   width: 100%;   
 }
 
 .info-center {
