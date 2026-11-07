@@ -16,27 +16,29 @@
 // }
 
 
-let index = 0;
+// let index = 0;
 
-function geser(arah) {
-  const slides = document.querySelector(".slides");
-  const jumlah = slides.children.length;
+// function geser(arah) {
+//   const slides = document.querySelector(".slides");
+//   const jumlah = slides.children.length;
 
-  index = (index + arah + jumlah) % jumlah;
+//   index = (index + arah + jumlah) % jumlah;
 
-  slides.style.transform =
-    `translateX(-${index * 100}%)`;
+//   slides.style.transform =
+//     `translateX(-${index * 100}%)`;
+// }
+
+
+let currentSlide = 0;
+
+function moveSlide(direction) {
+  const track = document.getElementById("expectTrack");
+  const total = track.children.length;
+
+  currentSlide = (currentSlide + direction + total) % total;
+
+  track.style.transform =
+    `translateX(-${currentSlide * 100}%)`;
 }
 
-let index1 = 1;
-
-function geser(arah) {
-  const slides1 = document.querySelector(".slides1");
-  const jumlah = slides1.children.length;
-
-  index1 = (index1 + arah + jumlah) % jumlah;
-
-  slides1.style.transform =
-    `translateX(-${index1 * 100}%)`;
-}
 

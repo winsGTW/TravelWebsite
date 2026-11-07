@@ -218,18 +218,6 @@ input{
 }
 
 
-table {
-   border: 2px solid black;
-   border-collapse: collapse;
-   display:flex;
-}
-tr, td, th {
-   border: 2px solid black;
-}
-#table {
-   display: flex;
-   margin-left: 9vw;
-}
 .container {
    display: flex;
    flex-wrap: wrap;
@@ -260,7 +248,7 @@ h4 {
 .slider {
   position: relative;
   width: 90%;
-  max-width: 400px;
+  max-width:600px;
   height: 400px;
   margin: 30px auto;
   overflow: hidden;
@@ -284,7 +272,7 @@ h4 {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgb(241, 240, 240);
+  background: rgb(249, 248, 248);
   color: rgb(0, 0, 0);
   border: none;
   padding: 15px;
@@ -305,53 +293,109 @@ h4 {
   background: #f1f0f0;
 }
 
+.tab2 {
+   background-image: linear-gradient(to right bottom, rgb(253, 252, 254), rgb(244, 246, 247));
 
-.slider1 {
-  position: relative;
+   width: 210px;
+   height: 400px;
+   padding: 50px;
+   margin: 20px;
+   border-radius: 30px;  
+   display: flex;
+   flex-direction: column;
+
+}
+
+.wow img {
+   align-items: center;
+   min-width: 205px;
+   height: 200px;
+   object-fit: cover;
+}
+
+
+.expect-section {
   width: 90%;
-  max-width: 400px;
-  height: 400px;
-  margin: 30px auto;
+  margin: 50px auto;
+}
+
+.expect-section h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.expect-slider {
+  position: relative;
   overflow: hidden;
-  border-radius: 15px;
-}
-
-.slides1 {
-  display: flex;
   width: 100%;
-  height: 100%;
-  transition: transform 0.5s ease;
 }
 
-.slides1 img {
+.expect-track {
+  display: flex;
+  transition: transform 0.6s ease;
+}
+
+.expect-card {
   min-width: 100%;
-  height: 100%;
-  object-fit: cover;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  box-sizing: border-box;
 }
 
-.slider1 button {
+.expect-card img {
+  width: 650px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.expect-info {
+  flex: 1;
+  padding: 15px;
+}
+
+.expect-info h3 {
+  font-size: 23px;
+}
+
+.expect-info p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.arrow {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgb(241, 240, 240);
-  color: rgb(0, 0, 0);
   border: none;
-  padding: 15px;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  padding: 12px;
   cursor: pointer;
   border-radius: 50%;
-  font-size: 18px;
 }
 
-.prev1 {
-  left: 15px;
+.prev {
+  left: 10px;
 }
 
-.next1 {
-  right: 15px;
+.next {
+  right: 10px;
 }
 
-.slider1 button:hover {
-  background: #f1f0f0;
+
+.tss img {
+   width: 1300px;
+   padding: 50px;
+   margin: 20px;
+   border-radius: 30px;  
+   display: flex;
+   flex-direction: column;
+}
+
+.cn {
+   text-align: center;
 }
 
 
