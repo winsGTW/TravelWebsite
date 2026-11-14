@@ -85,10 +85,11 @@ body {
 }
 
 .tab1 {
-   background-image: linear-gradient(to right bottom, rgb(242, 230, 255), rgb(248, 250, 251));
+   background-image: linear-gradient(to right bottom, rgb(255, 255, 255), rgb(248, 250, 251));
 
 
    width: 700px;
+   height: 200px;
    padding: 50px;
    margin: 20px;
    border-radius: 30px;  
@@ -97,7 +98,7 @@ body {
 }
 
 .tab {
-   background-image: linear-gradient(to right bottom, rgb(184, 242, 255), rgb(245, 255, 255));
+   background-image: linear-gradient(to right bottom, rgb(219, 219, 219), rgb(245, 255, 255));
 
 
    width: 720px;
@@ -297,7 +298,7 @@ h4 {
    background-image: linear-gradient(to right bottom, rgb(253, 252, 254), rgb(244, 246, 247));
 
    width: 210px;
-   height: 400px;
+   height: 700px;
    padding: 50px;
    margin: 20px;
    border-radius: 30px;  
