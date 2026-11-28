@@ -41,4 +41,3 @@ function moveSlide(direction) {
     `translateX(-${currentSlide * 100}%)`;
 }
 
-
